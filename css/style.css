@@ -29,9 +29,11 @@ nav {
 
 #interface {
     margin: auto;
-    width: 1200px;
+    padding-bottom: 60px;
+    width: 1000px;
     background-color: white;
     border-radius: 8px;
+
 }
 
 /* header */
@@ -65,14 +67,21 @@ button {
 /* interfaccia */
 #new-task {
     margin-top: 24px;
-    padding: 24px 60px 24px 60px;
+    padding: 12px 60px 12px 60px;
+    font-weight: bold;
+    color: #41454E;
+}
+
+#today {
+    margin-top: 24px;
+    padding: 12px 60px 12px 60px;
     font-weight: bold;
     color: #41454E;
 }
 
 h3 {
     display: inline-block;
-    padding-top: 12px;
+    padding-top: 24px;
     font-weight: 400;
     margin-right: 2px;
 }
@@ -88,6 +97,17 @@ h3 {
     margin-right: 8px;
 }
 
+.cross {
+    height: 12px;
+    width: 12px;
+    padding: 2px 7px;
+    color: #E84740;
+    background-color: #5fbda400;
+    border: solid 2px #E84740;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
 .label {
     padding: 8px 14px;
     color: white;
@@ -98,4 +118,24 @@ h3 {
 
 .blue {
     background-color: #48ADF1;
+}
+
+.purple {
+    background-color: #9C72E4;
+}
+
+.green {
+    background-color: #5FBDA4;
+}
+
+.orange {
+    background-color: #F29E33;
+}
+
+.magenta {
+    background-color: #D763A1;
+}
+
+.pistacho {
+    background-color: #B0C925;
 }
